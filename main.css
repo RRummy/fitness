@@ -1,32 +1,98 @@
-
 main {
     background: lightgrey
 }
-html,
-body {
+
+html, body {
+    font-family: <!-- подключить шрифт --!>;
     margin: 0;
+    -webkit-font-smootihg: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     padding: 0;
     width: 100%;
     height: 100%;
 }
+
 .header {
-    width: 1100px;
-height: 77px;
-background-color: #131415;
-}
-.logo{
-width: 160px;
-height: 18px;
-color: #f89513;
-font-family: "Gora Free";
-font-size: 18px;
-font-weight: 400;
-line-height: 54px;
-text-transform: uppercase;
-/* Text style for "А, фродита" */
-letter-spacing: 1.8px;
+    background-color: #131415;
+    margin-bottom: 155px;
 }
 
-footer .logo{
-color:red
+.header .container {
+    position: relative;
+    height: 77px;
 }
+
+.header .logo {
+    position: absolute;
+    top: 31px;
+    left: 19px;
+    bottom: 28px;
+    text-align: left;
+    width: 160px;
+    height: 18px;
+    color: #f89513;
+    font-family: "Gora Free";
+    font-size: 18px;
+    font-weight: 400;
+    /*line-height: 54px; - мешает расположению??? */
+    text-transform: uppercase;
+    /* Text style for "Афродита" */
+    letter-spacing: 1.8px;
+}
+
+.contacts__phone {
+    position: absolute;
+    top: 22px;
+    right: 21px;
+    bottom: 37px;
+    text-align: right;
+    width: 170px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 21px;
+    font-weight: 700;
+    /*line-height: 54px; */
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+.contacts__time {
+    position: absolute;
+    top: 46px;
+    right: 22px;
+    bottom: 17px;
+    text-align: right;
+    /*width: 114px;
+    height: 14px; - Ломает все расположение, почему???
+    opacity: 0.7;*/
+    color: #f89513;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    /*line-height: 54px;* - Ломает все расположение, почему???
+    /*text-decoration: underline;*/
+}
+
+/*.menu {
+    list-style-type: none;
+    display: inline-block;
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+} не работает!!! */
+
+footer {
+    background: black;
+    width: 1100px;
+    height: 74px;
+}
+
+footer .logo {
+    color: #f89513;

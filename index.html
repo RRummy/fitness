@@ -13,49 +13,51 @@
     <div class="wrapper">
         <header class=header>
             <!-- начало header -->
-            <div class="logo">афродита
-            </div>
-            <div class="maincontent__menu">
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="https://rrummy.github.io/fitness/" class="menu__link">
-                                <div class="menu__icon"> <img src="img/main_icon.png" alt="главная"> </div>
-                                <div class="menu__text"> Главная</div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <!-- вставить сюда ссылку на отзывы -->
-                                <div class="menu__icon"> <img src="img/feed_icon.png" alt="отзывы"> </div>
-                                <div class="menu__text"> Отзывы</div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <!-- вставить сюда иконку услуг -->
-                                <div class="menu__icon"> <img src="img/service_icon.png" alt="услуги"> </div>
-                                <div class="menu__text"> Услуги</div>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="contacts">
-                <a href="tel:88000039210" class="contacts__phone">8(800) 00-392-10</a>
-                <button class="contacts__time">График работы</button> <!-- вставить сюда всплывашку -->
+            <div class="container">
+                <div class="logo">афродита
+                </div>
+                <div class="maincontent__menu">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="https://rrummy.github.io/fitness/" class="menu__link">
+                                    <div class="menu__icon"> <img src="img/main_icon.png" alt="главная"> </div>
+                                    <div class="menu__text"> Главная</div>
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    <!-- вставить сюда ссылку на отзывы -->
+                                    <div class="menu__icon"> <img src="img/feed_icon.png" alt="отзывы"> </div>
+                                    <div class="menu__text"> Отзывы</div>
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    <!-- вставить сюда иконку услуг -->
+                                    <div class="menu__icon"> <img src="img/service_icon.png" alt="услуги"> </div>
+                                    <div class="menu__text"> Услуги</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="contacts">
+                    <a href="tel:88000039210" class="contacts__phone">8(800) 00-392-10</a>
+                    <button> <div class="contacts__time"> График работы</div> </button> <!-- вставить сюда всплывашку -->
+                </div>
             </div>
         </header> <!-- конец header -->
         <main>
             <!-- начало основной (динамической) части сайта -->
             <div class="main">
                 <img src="img/Image.png" alt="do-it!">
-                <section class="section">
+                <section class="section-middle">
                     <h1>особености</h1> <!-- добавить стиль texttransworm uppercase -->
-                    <div class="section-middle">
+                    <div class="section-middle-specs">
                         <div><img src="img/flower.png" alt="уникальность"></div>
                         <h2>уникальность</h2> <!-- добавить стиль texttransworm uppercase -->
-                        <p>Мы делаем все, для вашего комфорта</p>
+                        <div>Мы делаем все, для вашего комфорта</div>
                         <!-- НЕ УВЕРЕН В ПРАВИЛЬНОСТИ -->
                         <ul>
                             <li>Питание включено</li>
@@ -63,10 +65,10 @@
                             <li>Душ/баня</li>
                         </ul>
                     </div>
-                    <div class="section-middle">
+                    <div class="section-middle-specs">
                         <div><img src="img/mark-as-favorite-star.png" alt="премиум-класс"></div>
                         <h2>премиум-класс</h2> <!-- добавить стиль texttransworm uppercase -->
-                        <p>Наш зал оборудован тренажёрами A-класса</p>
+                        <div>Наш зал оборудован тренажёрами A-класса</div>
                         <!-- НЕ УВЕРЕН В ПРАВИЛЬНОСТИ -->
                         <ul>
                             <li>Качество</li>
@@ -74,10 +76,10 @@
                             <li>Результат</li>
                         </ul>
                     </div>
-                    <div class="section-middle">
+                    <div class="section-middle-specs">
                         <div><img src="img/painter-palette.png" alt="личный-тренер"></div>
                         <h2>личный тренер</h2> <!-- добавить стиль texttransworm uppercase -->
-                        <p>Тренер сделает всё для вашего результата</p>
+                        <div>Тренер сделает всё для вашего результата</div>
                         <!-- НЕ УВЕРЕН В ПРАВИЛЬНОСТИ -->
                         <ul>
                             <li>Программа</li>
@@ -86,8 +88,8 @@
                         </ul>
                     </div>
                 </section>
-                <section class="section">
-                    <div class="section-blog">
+                <section class="section-blog">
+                    <div class="section-blog-news">
                         <h1>последние новости</h1> <!-- добавить стиль texttransworm uppercase -->
                         <div><img src="img/Layer_6.png" alt="похудение"></div>
                         <div> 12.10.2016 </div>
@@ -96,7 +98,7 @@
                             самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это
                             крайне важно для каждого начинающего атлета.</p>
                     </div>
-                    <div class="section-blog">
+                    <div class="section-blog-news">
                         <div><img src="img/Layer_7.png" alt="заражай"></div>
                         <div> 01.02.2016 </div>
                         <h3> Заражай друзей, получай призы! </h3>
@@ -104,7 +106,7 @@
                             пользование баром,таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся
                             о вашем комфорте и предлагаем испытать это уже сегодня!</p>
                     </div>
-                    <div class="section-blog">
+                    <div class="section-blog-news">
                         <div><img src="img/Layer_9.png" alt="фрилансер"></div>
                         <div> 22.12.2015</div>
                         <h3> Фрилансер? Выпрями спину! </h3>
@@ -114,19 +116,8 @@
                     </div>
                 </section>
             </div>
-
-            <aside class="sidemenu">
-                <!-- "ЭТО ДОЛЖНЫ БЫТЬ ССЫЛКИ НА КАРТИНКАХ??" -->
-                <h4> топ новостей за сентябрь</h4> <!-- добавить стиль texttransworm uppercase -->
-                <a href="#">
-                    <!-- ссылка по картинке --> <img src="img/Layer_10.png" alt="зал"> </a>
-                <a href="#">
-                    <!-- ссылка по картинке --> <img src="img/Layer_11.png" alt="офощи"> </a>
-                <a href="#">
-                    <!-- ссылка по картинке --> <img src="img/Layer_12.png" alt="гантели"> </a>
-            </aside>
-
-            <div class="page__pagination">
+        </main> <!-- конец основной (динамической) части сайта -->
+        <div class="page__pagination">
                 <div class="page__pagination-display">Страница 1 из 7</div>
                 <div class="page__pagination-elem">
                     <a href="#" class="page__pagination-prev-next">
@@ -155,7 +146,16 @@
                             <a href="#" class="page__pagination-prev-next"> > </a>
                             </ul>
                 </div>
-        </main> <!-- конец основной (динамической) части сайта -->
+        <aside class="sidemenu">
+                <!-- "ЭТО ДОЛЖНЫ БЫТЬ ССЫЛКИ НА КАРТИНКАХ??" -->
+                <h4> топ новостей за сентябрь</h4> <!-- добавить стиль texttransworm uppercase -->
+                <a href="#">
+                    <!-- ссылка по картинке --> <img src="img/Layer_10.png" alt="зал"> </a>
+                <a href="#">
+                    <!-- ссылка по картинке --> <img src="img/Layer_11.png" alt="офощи"> </a>
+                <a href="#">
+                    <!-- ссылка по картинке --> <img src="img/Layer_12.png" alt="гантели"> </a>
+            </aside>
         <footer>
             <div>Сделано с любовью и старанием
                 на курсе «HTML + CSS» в <a href="https://loftschool.com/">LoftSchool</a>. <br>
