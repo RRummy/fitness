@@ -1,4 +1,7 @@
 
+main {
+    background: lightgrey
+}
 html,
 body {
     margin: 0;
@@ -22,4 +25,8 @@ line-height: 54px;
 text-transform: uppercase;
 /* Text style for "А, фродита" */
 letter-spacing: 1.8px;
+}
+
+footer .logo{
+color:red
 }
