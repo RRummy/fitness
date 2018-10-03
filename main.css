@@ -96,3 +96,11 @@ footer {
 
 footer .logo {
     color: #f89513;
+}
+.socialnetwork-link-vk{
+    margin: 10 10 10 10;
+    border: 10 10 10 10;
+
+    background-image:url(./img/vk.png)
+
+}
