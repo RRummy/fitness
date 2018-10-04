@@ -1,8 +1,11 @@
+body {
+    margin: 0px;
+}
+
 /* wrapper */
 
 .wrapper {
     width: 1100px;
-    position: relative;
 }
 
 /* header */
@@ -43,25 +46,19 @@
     top: 35px;
     bottom: 32px;
     left: 417px;
-    right: 619px;
+    right: 646px;
     color: #ffffff;
-    display: inline-block;
-    padding: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
 }
 
 .menu__link-2 {
     background: url(img/feed_icon.png) center center no-repeat;
     position: absolute;
     top: 35px;
-    bottom: 32px;
     left: 546px;
     right: 495px;
     color: #ffffff;
-    display: inline-block;
-    padding: 20px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1.2px;
@@ -75,8 +72,6 @@
     left: 667px;
     right: 380px;
     color: #ffffff;
-    display: inline-block;
-    padding: 20px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1.2px;
@@ -90,7 +85,6 @@
     bottom: 37px;
     font-size: 21px;
     font-weight: 700;
-    line-height: 54px;
     text-transform: uppercase;
     text-align: right;
     color: #ffffff;
@@ -106,30 +100,28 @@
     color: #f89513;
     font-size: 14px;
     font-weight: 700;
-    line-height: 54px;
     text-decoration: underline;
 }
 
 .main__img {
     position: relative;
-    width: 740px;
-    height: 486px;
-    margin: 155px 179px 181px 183px
+    margin: 80px 180px 60px 180px
 }
 
-.main {
-    color: black;
+.section-middle {
+    background-color: black;
+    height: 570px;
+}
+
+.section-middle__specs {
+    color: #ffffff;
 }
 
 .section-middle__h1 {
     position: absolute;
     top: 765px;
-    left: 355px;
-    right: 355px;
-    bottom: 1673px;
-    width: 390px;
-    height: 35px;
-    color: #111111;
+    left: 356px;
+    color: #ffffff;
     font-family: "Open Sans";
     font-size: 49px;
     font-weight: 700;
@@ -138,17 +130,252 @@
     letter-spacing: 1.47px;
 }
 
+/* section-middle-flower */
+
+.section-middle__img-flower {
+    position: absolute;
+    top: 885px;
+    left: 265px;
+}
+
+.section-middle__h2__uniq {
+    position: absolute;
+    top: 976px;
+    left: 220px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.section-middle__text-1 {
+    position: absolute;
+    width: 195px;
+    height: 152px;
+    top: 1015px;
+    left: 200px;
+}
+
+.section-middle__list-1 {
+    position: absolute;
+    width: 195px;
+    height: 152px;
+    top: 1045px;
+    left: 180px;
+}
+
+.section-middle__img-star {
+    position: absolute;
+    top: 885px;
+    left: 532px;
+}
+
+.section-middle__h2__prem {
+    position: absolute;
+    left: 483px;
+    right: 486px;
+    top: 976px;
+    bottom: 1488px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.section-middle__text-2 {
+    position: absolute;
+    width: 195px;
+    height: 152px;
+    top: 1015px;
+    left: 482px;
+}
+
+.section-middle__list-2 {
+    position: absolute;
+    width: 195px;
+    height: 152px;
+    top: 1045px;
+    left: 450px;
+}
+
+.section-middle__img-pallette {
+    position: absolute;
+    top: 885px;
+    left: 836px;
+}
+
+.section-middle__h2__trener {
+    position: absolute;
+    left: 759px;
+    right: 214px;
+    top: 976px;
+    bottom: 1488px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.section-middle__text-3 {
+    position: absolute;
+    width: 195px;
+    height: 152px;
+    top: 1015px;
+    left: 753px;
+}
+
+.section-middle__list-3 {
+    position: absolute;
+    width: 195px;
+    height: 152px;
+    top: 1045px;
+    left: 720px;
+}
+
+.section-blog__h1 {
+    position: absolute;
+    top: 1338px;
+    height: 35px;
+    left: 285px;
+    color: black;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.section-blog__img-1 {
+    position: absolute;
+    top: 1453px;
+    left: 20px;
+}
+
+.section-blog__date-1 {
+    position: absolute;
+    top: 1453px;
+    left: 200px;
+}
+
+.section-blog__h3-1 {
+    position: absolute;
+    top: 1475px;
+    left: 200px;
+}
+
+.section-blog__text-1 {
+    position: absolute;
+    top: 1515px;
+    left: 200px;
+    width: 694px;
+    height: 136px;
+}
+
+.section-blog__img-2 {
+    position: absolute;
+    top: 1675px;
+    left: 20px;
+}
+
+.section-blog__date-2 {
+    position: absolute;
+    top: 1675px;
+    left: 200px;
+}
+
+.section-blog__h3-2 {
+    position: absolute;
+    top: 1700px;
+    left: 200px;
+}
+
+.section-blog__text-2 {
+    position: absolute;
+    top: 1745px;
+    left: 200px;
+    width: 694px;
+    height: 136px;
+}
+
+.section-blog__img-3 {
+    position: absolute;
+    top: 1896px;
+    left: 20px;
+}
+
+.section-blog__date-3 {
+    position: absolute;
+    top: 1896px;
+    left: 200px;
+}
+
+.section-blog__h3-3 {
+    position: absolute;
+    top: 1900px;
+    left: 200px;
+}
+
+.section-blog__text-3 {
+    position: absolute;
+    top: 1940px;
+    left: 200px;
+    width: 694px;
+    height: 136px;
+}
+
+.sidemenu__h4 {
+    position: absolute;
+    width: 123px;
+    height: 33px;
+    top: 1453px;
+    left: 920px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #656464;
+    letter-spacing: 2px;
+}
+
+.sidemenu__link-img-1 {
+    position: absolute;
+    width: 160px;
+    height: 121px;
+    top: 1510px;
+    left: 920px;
+}
+
+.sidemenu__link-img-2 {
+    position: absolute;
+    top: 1650px;
+    left: 920px;
+    width: 160px;
+    height: 160px;
+}
+
+.sidemenu__link-img-3 {
+    position: absolute;
+    top: 1830px;
+    left: 920px;
+    width: 160px;
+    height: 160px;
+}
+
+.page-pagination__display {
+    position: absolute;
+    top: 2140px;
+    left: 380px;
+}
 
 .page-pagination__item {
     position: relative;
     display: inline-block;
+    top: 845px;
     left: 503px;
     right: 592px;
-
 }
 
 .footer {
-    position: relative;
+    position: absolute;
+    top: 2224px;
     width: 1100px;
     height: 77px;
     background-color: #111111;
@@ -169,11 +396,27 @@
 }
 
 .footer__text {
+    width: 239px;
+    height: 50px;
     position: absolute;
     color: #ffffff;
 }
 
-.
+.footer__h5 {
+    position: absolute;
+    width: 174px;
+    height: 13px;
+    color: #ffffff;
+    top: 2px;
+    left: 906px;
+}
+.socialnetwork-link {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    left: 870px;
+    top: 30px;
+}
 /*
 html, body {
     font-family: <!-- подключить шрифт --!>;
