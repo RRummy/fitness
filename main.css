@@ -95,7 +95,7 @@ a {
     margin-right: 21px;
     margin-left: 909px;
     display: flex;
-    justify-content:end;
+    justify-content: end;
     flex-wrap: wrap;
 }
 
@@ -119,10 +119,9 @@ a {
     text-decoration: underline;
 }
 
-
 .main__img {
     position: relative;
-    margin-left: 180px; 
+    margin-left: 180px;
     margin-right: 180px;
     margin-bottom: 60px;
 }
@@ -130,11 +129,136 @@ a {
 .section-middle {
     background-color: black;
     height: 570px;
+    width: 1100px;
+    margin-bottom: 70px;
 }
 
+.section-middle__h1 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    top: 66px;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-top: 65px;
+    margin-bottom: 60px;
+}
+
+.section-middle__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 305px;
+    min-width: 740px;
+    margin-top: 165px;
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.section-middle__img {
+    background-color: #f89513;
+}
 .section-middle__specs {
     color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.section-middle__h2 {
+    position: relative;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+
+.section-middle__text {
+    text-align: center
+}
+
+.section-blog__h1 {
+    position: relative;
+    text-align: center;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 75px;
+}
+
+.section-blog__news {
+    display: flex;
+    max-width: 885px;
+    margin-bottom: 65px;
+}
+
+.sidemenu {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 550px;
+    margin-left: 920px;
+    margin-top: -500px;
+}
+
+.page-pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    margin-bottom: 70px;
+}
+
+.page-pagination__pages {
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    width: 215px;
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1100px;
+    height: 77px;
+}
+
+.footer__text{
+ color: #ffffff;
+}
+
+.socialnetwork {
+    position: relative;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 20px;
+}
+.socialnetwork-link {
+    display: inline-flex;
+    background-color: #f89513
+}
+
+.logo-footer {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    left: 20px;
+    bottom: 30px;
+    width: 160px;
+    height: 18px;
+    color: #f89513;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 /*
 .section-middle__h1 {
     position: absolute;
