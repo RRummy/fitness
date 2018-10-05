@@ -4,6 +4,19 @@ body {
 
 /* wrapper */
 
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.menu__text {
+    text-decoration: none;
+}
+
 .wrapper {
     width: 1100px;
 }
@@ -14,7 +27,8 @@ body {
     position: relative;
     width: 1100px;
     height: 77px;
-    background-color: #131415;
+    background-color: black;
+    margin-bottom: 80px;
 }
 
 /* logo-header */
@@ -36,76 +50,81 @@ body {
 
 /* header__menu */
 
+.menu {
+    margin-left: 380px;
+    width: 340px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
 .menu__list {
-    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }
 
-.menu__link-1 {
-    background: url(img/main_icon.png) center center no-repeat;
-    position: absolute;
-    top: 35px;
-    bottom: 32px;
-    left: 417px;
-    right: 646px;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
+/* иконки для каждого элемента меню */
+
+.menu__item:nth-child(1) {
+    background: url(./img/main_icon.png) left center no-repeat;
 }
 
-.menu__link-2 {
-    background: url(img/feed_icon.png) center center no-repeat;
-    position: absolute;
-    top: 35px;
-    left: 546px;
-    right: 495px;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
+.menu__item:nth-child(2) {
+    background: url(./img/feed_icon.png) left center no-repeat;
 }
 
-.menu__link-3 {
-    background: url(img/service_icon.png) center center no-repeat;
-    position: absolute;
-    top: 35px;
-    bottom: 32px;
-    left: 667px;
-    right: 380px;
+.menu__item:nth-child(3) {
+    background: url(./img/service_icon.png) left center no-repeat;
+}
+
+/* телефон и время работы */
+
+.menu__item {
+    display: flex;
     color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
+}
+
+.contacts {
+    position: relative;
+    width: 170px;
+    height: 38px;
+    margin-top: -45px;
+    margin-right: 21px;
+    margin-left: 909px;
+    display: flex;
+    justify-content:end;
+    flex-wrap: wrap;
+}
+
+.contacts__time-text {
+    display: flex;
 }
 
 .contacts__phone {
-    position: absolute;
-    top: 21px;
-    left: 909px;
-    right: 21px;
-    bottom: 37px;
+    display: flex;
     font-size: 21px;
     font-weight: 700;
     text-transform: uppercase;
-    text-align: right;
     color: #ffffff;
     text-decoration: none;
 }
 
 .contacts__time-text {
-    position: absolute;
-    top: 46px;
-    left: 964px;
-    right: 22px;
-    bottom: 17px;
     color: #f89513;
     font-size: 14px;
     font-weight: 700;
     text-decoration: underline;
 }
 
+
 .main__img {
     position: relative;
-    margin: 80px 180px 60px 180px
+    margin-left: 180px; 
+    margin-right: 180px;
+    margin-bottom: 60px;
 }
 
 .section-middle {
@@ -116,7 +135,7 @@ body {
 .section-middle__specs {
     color: #ffffff;
 }
-
+/*
 .section-middle__h1 {
     position: absolute;
     top: 765px;
@@ -131,6 +150,8 @@ body {
 }
 
 /* section-middle-flower */
+
+/*
 
 .section-middle__img-flower {
     position: absolute;
@@ -417,6 +438,24 @@ body {
     left: 870px;
     top: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 html, body {
     font-family: <!-- подключить шрифт --!>;
