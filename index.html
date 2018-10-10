@@ -15,27 +15,6 @@
         <header class=header>
             <div class="logo-header">афродита
             </div>
-            <div class="header__menu">
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="https://rrummy.github.io/fitness/" class="menu__link">
-                                <div class="menu__text"> Главная</div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="menu__text"> Отзывы</div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="menu__text"> Услуги</div>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
             <div class="contacts">
                 <a href="tel:88000039210" class="contacts__phone">8(800) 00-392-10</a>
                 <button class="contacts__time">
@@ -44,15 +23,30 @@
             </div>
         </header> <!-- конец header -->
         <main class="main-content">
-            <!-- начало основной (динамической) части сайта -->
-            <div class="main">
-                <img class="main__img" src="img/Image.png" alt="do-it!">
-                <section class="section-middle">
-
-                    <h1 class="section-middle__h1">особености</h1>
-                    <div class="section-middle__container">
+            <div class="aside-menu">
+                <aside>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="https://rrummy.github.io/fitness/" class="menu__link">
+                                    <div class="menu__text"> Главная</div>
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="https://rrummy.github.io/fitness/services" class="menu__link">
+                                    <div class="menu__text"> Услуги</div>
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="https://rrummy.github.io/fitness/reviews" class="menu__link">
+                                    <div class="menu__text"> Отзывы</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="aside-text">
                         <div class="section-middle__specs">
-                            <div><img class="section-middle__img" src="img/flower.png" alt="уникальность"></div>
+                            <h2>особенность</h2>
                             <h2 class="section-middle__h2">уникальность</h2>
                             <div class="section-middle__text">Мы делаем все, для вашего комфорта</div>
                             <ul class="section-middle__list">
@@ -61,28 +55,49 @@
                                 <li class="section-middle__list-item">Душ/баня</li>
                             </ul>
                         </div>
-                        <div class="section-middle__specs">
-                            <div><img class="section-middle__img" src="img/mark-as-favorite-star.png" alt="премиум-класс"></div>
-                            <h2 class="section-middle__h2">премиум-класс</h2>
-                            <div class="section-middle__text">Наш зал оборудован тренажёрами A-класса</div>
-                            <ul class="section-middle__list">
-                                <li class="section-middle__list-item">Качество</li>
-                                <li class="section-middle__list-item">Продуктивность</li>
-                                <li class="section-middle__list-item">Результат</li>
-                            </ul>
-                        </div>
-                        <div class="section-middle__specs">
-                            <div><img class="section-middle__img" src="img/painter-palette.png" alt="личный-тренер"></div>
-                            <h2 class="section-middle__h2">личный тренер</h2>
-                            <div class="section-middle__text">Тренер сделает всё для вашего результата</div>
-                            <ul class="section-middle__list-">
-                                <li class="section-middle__list-item">Программа</li>
-                                <li class="section-middle__list-item">Питание</li>
-                                <li class="section-middle__list-item">План тренеровок</li>
-                            </ul>
-                        </div>
                     </div>
-                </section>
+                    <menu class="aside__link">
+                    <h4 class="sidemenu__h4"> топ новостей за сентябрь</h4>
+                    <a class="sidemenu__link" href="#">
+                        <!-- ссылка по картинке --> <img class="sidemenu__link-img" src="img/Layer_10.png" alt="зал">
+                    </a>
+                    <a class="sidemenu__link" href="#">
+                        <!-- ссылка по картинке --> <img class="sidemenu__link-img" src="img/Layer_11.png" alt="офощи">
+                    </a>
+                    <a class="sidemenu__link" href="#">
+                        <!-- ссылка по картинке --> <img class="sidemenu__link-img" src="img/Layer_12.png" alt="гантели">
+                    </a>
+                </menu>
+                </aside>
+                <div class="socialnetwork">
+                    <div class="socialnetwork_text"> Наши социальные сети </div>
+                    <ul class="socialnetwork_link">
+                        <li class="socialnetwork-link">
+                            <a href="vk.com" class="socialnetwork-link-vk"> <img src="img/vk.png" alt="vk">
+                            </a>
+                        </li>
+                        <li class="socialnetwork-link">
+                            <a href="#" class="socialnetwork-link-fb"> <img src="img/fb.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="socialnetwork-link">
+                            <a href="#" class="socialnetwork-link-g+"> <img src="img/google.png" alt="g+">
+                            </a>
+                        </li>
+                        <li class="socialnetwork-link">
+                            <a href="#" class="socialnetwork-link-twitter"> <img src="img/twitter.png" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="socialnetwork-link">
+                            <a href="#" class="socialnetwork-link-mail"> <img src="img/mail.png" alt="mail">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </aside>
+            </div><!-- начало основной (динамической) части сайта -->
+            <div class="main">
+                <img class="main__img" src="img/Image.png" alt="do-it!">
                 <section class="section-blog">
                     <h1 class="section-blog__h1">последние новости</h1>
                     <div class="section-blog__news">
@@ -122,15 +137,7 @@
                 </section>
             </div>
         </main>
-        <aside class="sidemenu">
-            <h4 class="sidemenu__h4"> топ новостей за сентябрь</h4> <!-- добавить стиль texttransworm uppercase -->
-            <a class="sidemenu__link" href="#">
-                <!-- ссылка по картинке --> <img class="sidemenu__link-img" src="img/Layer_10.png" alt="зал"> </a>
-            <a class="sidemenu__link" href="#">
-                <!-- ссылка по картинке --> <img class="sidemenu__link-img" src="img/Layer_11.png" alt="офощи"> </a>
-            <a class="sidemenu__link" href="#">
-                <!-- ссылка по картинке --> <img class="sidemenu__link-img" src="img/Layer_12.png" alt="гантели"> </a>
-        </aside> <!-- конец основной (динамической) части сайта -->
+        <!-- конец основной (динамической) части сайта -->
         <div class="page-pagination">
             <div class="page-pagination__display">Страница 1 из 7</div>
             <div class="page-pagination__element">
@@ -170,31 +177,6 @@
                     href="https://loftschool.com/">LoftSchool</a>.
                 <br> Автор работы: <a class="foter__link-github"" href=" https://github.com/RRummy">Яченко Роман</a> </div>
                     <div class="logo-footer">афродита
-            </div>
-            <div class="socialnetwork">
-                <div class="socialnetwork_text"> Наши социальные сети </div>
-                <ul>
-                    <li class="socialnetwork-link">
-                        <a href="vk.com" class="socialnetwork-link-vk"> <img src="img/vk.png" alt="vk">
-                        </a>
-                    </li>
-                    <li class="socialnetwork-link">
-                        <a href="#" class="socialnetwork-link-fb"> <img src="img/fb.png" alt="facebook">
-                        </a>
-                    </li>
-                    <li class="socialnetwork-link">
-                        <a href="#" class="socialnetwork-link-g+"> <img src="img/google.png" alt="g+">
-                        </a>
-                    </li>
-                    <li class="socialnetwork-link">
-                        <a href="#" class="socialnetwork-link-twitter"> <img src="img/twitter.png" alt="twitter">
-                        </a>
-                    </li>
-                    <li class="socialnetwork-link">
-                        <a href="#" class="socialnetwork-link-mail"> <img src="img/mail.png" alt="mail">
-                        </a>
-                    </li>
-                </ul>
             </div>
         </footer>
     </div>
