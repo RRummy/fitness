@@ -13,11 +13,15 @@ a {
     margin: 0 auto;
 }
 
+.menu__text {
+    text-decoration: none;
+}
+
 /* header */
 
 .header {
     position: relative;
-    width: 1200px;
+    width: 100%;
     height: 77px;
     display: flex;
     justify-content: space-between;
@@ -25,6 +29,7 @@ a {
     margin-bottom: 40px;
     align-content: center;
 }
+
 /* logo-header */
 
 .logo-header {
@@ -42,13 +47,14 @@ a {
     letter-spacing: 2px;
 }
 
-
 .contacts {
     position: relative;
-    width: 170px;
-    height: 38px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
 }
 
 .contacts__rev {
@@ -78,28 +84,44 @@ a {
     text-decoration: underline;
 }
 
-.menu {
-    width: 230px;
-    display: flex;
-    justify-content: center;
-}
+/* header__menu */
+
+/* иконки для каждого элемента меню */
+
+/* телефон и время работы */
 
 .menu__item {
     display: flex;
     color: #ffffff;
 }
 
-.menu__item:nth-child(1) {
-    background: url(./img/main_icon.png) left center no-repeat;
+.menu__item:nth-child(1)::before {
+    content: url(./img/main_icon.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-right: 15px;
 }
 
-.menu__item:nth-child(2) {
-    background: url(./img/feed_icon.png) left center no-repeat;
+.menu__item:nth-child(2)::before {
+    content: url(./img/feed_icon.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-right: 15px;
 }
 
-.menu__item:nth-child(3) {
-    background: url(./img/service_icon.png) left center no-repeat;
+.menu__item:nth-child(3)::before {
+    content: url(./img/service_icon.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-right: 15px;
 }
+
 
 .contacts {
     position: relative;
@@ -138,18 +160,34 @@ a {
     display: flex;
 }
 
-.menu__link {
+aside {
+    width: 275px;
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+    height: 150px;
+    width: 275px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.menu__text {
+    text-decoration: none;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
     font-family: "Open Sans";
     font-size: 12px;
     font-weight: 700;
-    line-height: 54px;
-}
-
-aside {
-    max-width: 275px;
 }
 
 .aside-menu {
@@ -159,39 +197,28 @@ aside {
     width: 275px;
 }
 
-.aside-partners {
-    padding-left: 0px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-.aside-partners__logo {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    min-width: 160px;
-    min-height: 65px;
-    justify-content: space-between;
-    list-style-type: none;
-}
-
-.aside-services {
-    border-style: solid;
+.aside-text {
     position: relative;
     justify-content: center;
-    width: 222px;
-    min-height: 376px;
+    width: 275px;
+    height: 376px;
+    color: #ffffff;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
-    text-transform: uppercase;
+    background-color: black;
     text-align: center;
-    margin-left: 20px;
-    margin-bottom: 30px;
+}
+
+.socialnetwork {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    min-width: 275px;
 }
 
 .socialnetwork {
@@ -203,15 +230,34 @@ aside {
     list-style: none;
 }
 
-.socialnetwork-text {
-    font-size: 14px;
-    font-weight: 700;
+.socialnetwork_text {
+    margin-bottom: 10px;
+}
+
+.socialnetwork_link {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 0px;
 }
 
 .socialnetwork-link {
     display: inline-flex;
     align-items: center;
-    margin-right: 20px;
+}
+
+section {
+    margin-left: 20px;
+    width: 865px;
+}
+
+.breadcrumbs {
+    position: relative;
+    height: 15px;
+    padding: 0px;
+    margin-left: 20px;
 }
 
 .breadcrumbs__item {
@@ -225,36 +271,30 @@ aside {
     color: #f89513;
 }
 
-.main-h1 {
+.section-blog__img {
     position: relative;
-    text-align: left;
-    color: black;
-    font-size: 49px;
-    font-weight: 700;
-    line-height: 38px;
-    text-transform: uppercase;
-    margin-top: 65px;
-    margin-bottom: 60px;
-}
-
-.section-blog {
-    display: flex;
-    width: 840px;
-    height: 980px;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    min-width: 160px;
+    margin-top: 25px;
+    margin-left: 22px;
+    margin-right: 22px;
     margin-bottom: 50px;
 }
 
-.section-blog__img {
-    position: relative;
+.section-blog__news {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
-.section-blog__news {
-    position: relative;
-    max-width: 255px;
-    min-height: 415px;
+.section-blog__news--content {
+    max-width: 645px;
+    
 }
+
+.section-blog__news::after {
+    content: url(./img/Rectangle_3.png);
+}
+
 
 .section-middle__h1 {
     position: relative;
@@ -269,6 +309,23 @@ aside {
     margin-bottom: 60px;
 }
 
+.section-middle__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 305px;
+    min-width: 740px;
+    margin-top: 165px;
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.section-middle__text {
+    text-align: center
+}
+
 .section-blog__h1 {
     width: 227px;
     height: 35px;
@@ -279,6 +336,13 @@ aside {
     line-height: 38px;
     text-transform: uppercase;
 }
+
+.section-blog {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .page-pagination {
     position: relative;
@@ -302,12 +366,11 @@ aside {
 }
 
 .footer {
-    position: relative;
     display: flex;
     background-color: black;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
     height: 77px;
 }
 

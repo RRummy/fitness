@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 77px;
+}
+
+.footer__text {
+  color: #ffffff;
+}

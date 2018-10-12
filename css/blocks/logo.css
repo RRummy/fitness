@@ -1,0 +1,29 @@
+
+.logo-header {
+  position: relative;
+  text-align: left;
+  top: 30px;
+  left: 20px;
+  bottom: 30px;
+  width: 160px;
+  height: 18px;
+  color: #f89513;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.logo-footer {
+  position: relative;
+  text-align: center;
+  top: 30px;
+  left: 20px;
+  bottom: 30px;
+  width: 160px;
+  height: 18px;
+  color: #f89513;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
