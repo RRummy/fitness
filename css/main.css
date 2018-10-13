@@ -6,13 +6,15 @@
 @import url(./blocks/contacts.css);
 @import url(./blocks/aside.css);
 @import url(./blocks/aside__link.css);
-@import url(./blocks/aside-text.css);
+@import url(./blocks/aside-text-main-page.css);
+@import url(./blocks/aside_services.css);
 @import url(./blocks/menu.css);
 @import url(./blocks/socialnetwork.css);
+@import url(./blocks/breadcrumbs.css);
 @import url(./blocks/main__img.css);
 @import url(./blocks/main-content.css);
-
-
+@import url(./blocks/main_services.css);
+@import url(./blocks/new-comment.css);
 @import url(./blocks/pagination.css);
 @import url(./blocks/footer.css);
 

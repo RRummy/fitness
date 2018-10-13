@@ -2,15 +2,9 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 315px;
 }
 
-.aside-menu {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
 
 .aside-text {
   display: flex;
@@ -27,6 +21,20 @@
   margin-left: 20px;
 }
 
+.aside-text__black {
+  background: black;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.aside-text__black-p {
+margin: 30px 25px;
+}
+
+.aside-text__black-bottom-text {
+  color: #f89513;
+  font-weight: 700;
+}
 
 .aside__link {
   position: relative;

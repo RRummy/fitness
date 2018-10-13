@@ -3,6 +3,19 @@
   flex-wrap: wrap;
 }
 
+
+.section-blog__h1 {
+  position: relative;
+  text-align: left;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
 .section-middle__h1 {
   position: relative;
   text-align: center;
@@ -17,23 +30,24 @@
 }
 
 .section-blog__img {
+  background-image: url(/img/Vector_Smart_Object.png);
+}
+
+
+.section-blog__img {
   position: relative;
-  min-width: 160px;
   margin-left: 22px;
   margin-right: 22px;
 }
 
-.section-blog__h1 {
-  position: relative;
-  text-align: left;
-  font-size: 49px;
-  font-weight: 700;
-  line-height: 38px;
-  text-transform: uppercase;
-  margin-top: 0px;
-  margin-bottom: 40px;
-  margin-left: 20px;
+.section-blog__date {
+  color: grey;
 }
+
+.section-blog__name {
+  font-weight: 700;
+}
+
 
 .section-blog__news {
   display: flex;
@@ -44,11 +58,12 @@
 
 .section-blog__news--content {
   width: 610px;
-  
 }
 
 .section-blog__news::after {
   content: url(/img/Rectangle_3.png);
 }
 
-
+.section-blog__news--last::after {
+  content: none;
+}

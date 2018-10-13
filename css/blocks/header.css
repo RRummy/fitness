@@ -9,3 +9,9 @@
   align-content: center;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  align-content: center;
+}

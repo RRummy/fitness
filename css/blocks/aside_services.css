@@ -1,0 +1,50 @@
+
+.aside-menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+}
+
+.partners-text{
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-size: 18px;
+font-weight: 700;
+}
+
+
+.aside-partners {
+  padding-left: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-partners__logo {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  min-width: 160px;
+  min-height: 65px;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.aside-services {
+  border-style: solid;
+  position: relative;
+  justify-content: center;
+  width: 275px;
+  min-height: 376px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}

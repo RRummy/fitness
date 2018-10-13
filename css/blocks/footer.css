@@ -10,3 +10,10 @@
 .footer__text {
   color: #ffffff;
 }
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  align-content: center;
+}

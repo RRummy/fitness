@@ -1,0 +1,23 @@
+.breadcrumbs {
+  position: relative;
+  height: 15px;
+  padding: 0px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.breadcrumbs__item {
+  display: inline-flex;
+  text-decoration: none;
+  color: #f89513;
+}
+
+.breadcrumbs__link {
+  text-decoration: none;
+  color: #f89513;
+}
+
+.breadcrumbs__item-active {
+  color:grey;
+}

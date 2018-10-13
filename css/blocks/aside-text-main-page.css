@@ -18,3 +18,10 @@ text-transform: uppercase;
 letter-spacing: 2.88px;
   margin-bottom: 20px;
 }
+
+.section-middle__list {
+  text-align: left;
+  margin-left:42px;
+  margin-bottom: 30px;
+}
+
