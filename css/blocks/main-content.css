@@ -43,11 +43,15 @@
 }
 
 .section-blog__date {
+  font-size: 14px;
+font-weight: 300;
+line-height: 21px;
   color: grey;
 }
 
 .section-blog__name {
   font-weight: 700;
+line-height: 21px;
 }
 
 .section-blog__news {
@@ -62,7 +66,13 @@
 }
 
 .section-blog__news--content {
-  width: 610px;
+  width: 608px;
+}
+
+.section-blog__text {
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 5px;
 }
 
 .section-blog__news::after {
@@ -78,7 +88,7 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin-left: 3px;
+  margin-left: 30px;
 }
 
 .section-middle__list-item {

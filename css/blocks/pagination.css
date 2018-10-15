@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   width: 1200px;
-  height: 25px;
   margin-bottom: 65px;
 }
 
@@ -25,18 +24,32 @@
   color: black;
   font-size: 14px;
   font-weight: 700;
+  margin-top: 25%;
+}
+
+.page-pagination__link-first {
+  color: #656464;
+}
+
+.page-pagination__item-active {
+  background: black;
+  border-radius: 20%;
+}
+
+.page-pagination__link-active {
+  color: white;
 }
 
 .page-pagination__link:hover {
   color: orange;
+  transition: 1s;
 }
 
-.page-pagination__item {
+.page-pagination__item-box {
+  display: flex;
   width: 25px;
   height: 25px;
-}
-
-.page-pagination__link:active {
-  color: orange;
-  background: url(/img/Rounded_Rectangle_2.png)
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }

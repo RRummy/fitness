@@ -1,6 +1,6 @@
 .section-middle__h {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 28px;
+  margin-bottom: 20px;
   height: 13px;
   font-family: "Open Sans";
   font-size: 18px;
@@ -16,11 +16,22 @@
   line-height: 51.38px;
   text-transform: uppercase;
   letter-spacing: 2.88px;
-  margin-bottom: 20px;
 }
 
 .section-middle__list {
   text-align: left;
   margin-left: 42px;
   margin-bottom: 30px;
+}
+
+.sidemenu__h4 {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  line-height: 21px;
+}
+
+.sidemenu__h4-span {
+  color: #656464;
 }
