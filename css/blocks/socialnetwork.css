@@ -29,22 +29,47 @@
   align-items: center;
 }
 
+.socialnetwork__list-link-vk {
+  filter: saturate(0%) brightness(70%) contrast(1000%);
+}
+
 .socialnetwork__list-link-vk:hover {
-  content: url(../../img/vk-hover.png);
+  filter: none;
+  transition: 1s;
+}
+
+.socialnetwork__list-link-fb {
+  filter: saturate(0%) brightness(70%) contrast(1000%);
 }
 
 .socialnetwork__list-link-fb:hover {
-  content: url(../../img/fb-hover.png);
+  filter: none;
+  transition: 1s;
+}
+
+.socialnetwork__list-link-g {
+  filter: saturate(0%) brightness(70%) contrast(1000%);
 }
 
 .socialnetwork__list-link-g:hover {
-  content: url(../../img/google-hover.png);
+  filter: none;
+  transition: 1s;
+}
+
+.socialnetwork__list-link-twitter {
+  filter: saturate(0%) brightness(70%) contrast(1000%);
 }
 
 .socialnetwork__list-link-twitter:hover {
-  content: url(../../img/twitter-hover.png);
+  filter: none;
+  transition: 1s;
+}
+
+.socialnetwork__list-link-mail {
+  filter: saturate(0%) brightness(70%) contrast(1000%);
 }
 
 .socialnetwork__list-link-mail:hover {
-  content: url(../../img/mail-hover.png);
+  filter: none;
+  transition: 1s;
 }

@@ -7,7 +7,7 @@
 
 .partners-text {
   margin-top: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -29,6 +29,12 @@
   min-height: 65px;
   justify-content: space-between;
   list-style-type: none;
+  filter: grayscale(100%);
+}
+
+.aside-partners__logo:hover {
+  filter: grayscale(0%);
+  transition: 1s;
 }
 
 .aside-services {
