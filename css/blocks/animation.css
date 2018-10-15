@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(../../img/gym-amination.png) center center / cover no-repeat;
+  background: url(/img/gym-amination.png) center center / cover no-repeat;
 }
 
 .animation {
@@ -20,7 +20,7 @@
 .animation_container__link {
   display: block;
   padding: 17px 21px;
-  background: url(../../img/Rounded_Rectangle_1.png);
+  background: url(/img/Rounded_Rectangle_1.png);
   color: white;
   text-decoration: none;
   text-transform: uppercase;
