@@ -30,21 +30,21 @@
 }
 
 .socialnetwork__list-link-vk:hover {
-  content: url(/img/vk-hover.png);
+  content: url(../../img/vk-hover.png);
 }
 
 .socialnetwork__list-link-fb:hover {
-  content: url(/img/fb-hover.png);
+  content: url(../../img/fb-hover.png);
 }
 
 .socialnetwork__list-link-g:hover {
-  content: url(/img/google-hover.png);
+  content: url(../../img/google-hover.png);
 }
 
 .socialnetwork__list-link-twitter:hover {
-  content: url(/img/twitter-hover.png);
+  content: url(../../img/twitter-hover.png);
 }
 
 .socialnetwork__list-link-mail:hover {
-  content: url(/img/mail-hover.png);
+  content: url(../../img/mail-hover.png);
 }

@@ -41,7 +41,7 @@
 }
 
 .section-services__img-text::before {
-  content: url(/img/cover.png);
+  content: url(../../img/cover.png);
   position: absolute;
   top: 50%;
   left: 50%;
