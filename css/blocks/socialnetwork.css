@@ -11,6 +11,8 @@
 }
 
 .socialnetwork_text {
+  font-size: 14px;
+font-weight: 700;
   margin-bottom: 10px;
 }
 
@@ -26,4 +28,22 @@
 .socialnetwork-link {
   display: inline-flex;
   align-items: center;
+}
+
+.socialnetwork-link-vk:hover{
+  content: url(/img/vk-hover.png);
+}
+
+.socialnetwork-link-fb:hover{
+  content: url(/img/fb-hover.png);
+}
+
+.socialnetwork-link-g:hover{
+  content: url(/img/google-hover.png);
+}
+.socialnetwork-link-twitter:hover{
+  content: url(/img/twitter-hover.png);
+}
+.socialnetwork-link-mail:hover{
+  content: url(/img/mail-hover.png);
 }

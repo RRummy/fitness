@@ -1,7 +1,6 @@
 html, body {
   font-family: 'Open Sans';
   height: 100%;
- 
   margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -56,4 +55,8 @@ table {
 .container {
   width: 1200px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
 }

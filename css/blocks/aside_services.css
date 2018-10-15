@@ -1,4 +1,3 @@
-
 .aside-menu {
   position: relative;
   display: flex;
@@ -6,13 +5,12 @@
   width: 315px;
 }
 
-.partners-text{
+.partners-text {
   margin-top: 25px;
   margin-bottom: 50px;
   font-size: 18px;
-font-weight: 700;
+  font-weight: 700;
 }
-
 
 .aside-partners {
   padding-left: 0px;

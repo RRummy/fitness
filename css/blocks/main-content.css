@@ -29,15 +29,18 @@
   margin-bottom: 60px;
 }
 
-.section-blog__img {
-  background-image: url(/img/Vector_Smart_Object.png);
+.section-middle__uniq {
+  font-size: 11px;
+font-weight: 700;
+letter-spacing:3px;
 }
 
-
-.section-blog__img {
-  position: relative;
-  margin-left: 22px;
-  margin-right: 22px;
+.section-middle__text {
+  text-align: center;
+  font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 192px; 
 }
 
 .section-blog__date {
@@ -52,8 +55,12 @@
 .section-blog__news {
   display: flex;
   max-width: 885px;
-  margin-bottom: 65px;
+  margin-bottom: 30px;
   flex-wrap: wrap;
+}
+
+.section-blog__news--last {
+  margin-bottom: 60px;
 }
 
 .section-blog__news--content {
@@ -66,4 +73,16 @@
 
 .section-blog__news--last::after {
   content: none;
+}
+
+.section-middle__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-left: 30px;
+}
+
+.section-middle__list-item {
+  list-style-type: disc;
 }

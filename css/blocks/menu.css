@@ -1,16 +1,15 @@
-
 .menu {
   display: flex;
   height: 150px;
   width: 275px;
   justify-content: center;
   margin-left: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .menu__item {
   display: flex;
-  }
+}
 
 .menu__text:hover {
   color: #f89513;
@@ -34,6 +33,10 @@
   font-family: "Open Sans";
   font-size: 12px;
   font-weight: 700;
+}
+
+.menu__text-active {
+  color: #f89513;
 }
 
 .menu__item:nth-child(1)::before {
@@ -63,3 +66,56 @@
   margin-right: 15px;
 }
 
+.menu__item:nth-child(1):hover:before {
+  content: url(/img/main_icon-hover.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-right: 15px;
+}
+
+.menu__item:nth-child(2):hover:before {
+  content: url(/img/service_icon-hover.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-right: 15px;
+}
+
+.menu__item:nth-child(3):hover:before {
+  content: url(/img/feed_icon-hover.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-right: 15px;
+}
+
+.menu__item-active:nth-child(1):before {
+  content: url(/img/main_icon-hover.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-right: 15px;
+}
+
+.menu__item-active:nth-child(2):before {
+  content: url(/img/service_icon-hover.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-right: 15px;
+}
+
+.menu__item-active:nth-child(3):before {
+  content: url(/img/feed_icon-hover.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-right: 15px;
+}

@@ -1,0 +1,19 @@
+.section-blog__img {
+  margin: 0;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image-container {
+  display: flex;
+  height: 173px;
+  width: 173px;
+  margin-right: 22px;
+}
+
+.image-container {
+  background-image: url(/img/3-layers.png);
+
+}
