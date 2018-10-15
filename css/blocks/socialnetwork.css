@@ -1,4 +1,3 @@
-
 .socialnetwork {
   position: relative;
   text-align: center;
@@ -10,13 +9,13 @@
   margin-left: 20px;
 }
 
-.socialnetwork_text {
+.socialnetwork__text {
   font-size: 14px;
-font-weight: 700;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
-.socialnetwork_link {
+.socialnetwork__list {
   display: flex;
   justify-content: space-around;
   padding: 0;
@@ -25,25 +24,27 @@ font-weight: 700;
   margin-top: 0px;
 }
 
-.socialnetwork-link {
+.socialnetwork__list-link {
   display: inline-flex;
   align-items: center;
 }
 
-.socialnetwork-link-vk:hover{
+.socialnetwork__list-link-vk:hover {
   content: url(/img/vk-hover.png);
 }
 
-.socialnetwork-link-fb:hover{
+.socialnetwork__list-link-fb:hover {
   content: url(/img/fb-hover.png);
 }
 
-.socialnetwork-link-g:hover{
+.socialnetwork__list-link-g:hover {
   content: url(/img/google-hover.png);
 }
-.socialnetwork-link-twitter:hover{
+
+.socialnetwork__list-link-twitter:hover {
   content: url(/img/twitter-hover.png);
 }
-.socialnetwork-link-mail:hover{
+
+.socialnetwork__list-link-mail:hover {
   content: url(/img/mail-hover.png);
 }
