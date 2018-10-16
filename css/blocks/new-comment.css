@@ -43,6 +43,12 @@
   padding-left: 10px;
 }
 
+.new-comment__form-column-top:focus {
+  border-style: solid;
+  border: 1px;
+  border-color: orange;
+}
+
 .new-comment__link {
   color: #221f1f;
   font-family: "Open Sans";
@@ -112,4 +118,3 @@
 .radio-custom {
   margin-top: 10px;
 }
-

@@ -2,12 +2,10 @@
   position: relative;
   width: 170px;
   min-height: 38px;
-  flex-wrap: wrap;
   margin-top: 20px;
 }
 
 .contacts__phone {
-  display: flex;
   font-size: 21px;
   font-weight: 700;
   text-transform: uppercase;
@@ -23,10 +21,51 @@
 }
 
 .contacts__time {
-  margin-left: 16px;
+  display: inline-block;
+  position: relative;
+  text-align: end;
   padding: 0;
-  display: flex;
-  width: 149px;
-  justify-content: flex-end;
-  align-content: flex-end;
+  width: 165px;
+}
+
+.contacts__time:hover .contacts__time-text {
+  color: lightgray;
+}
+
+.contacts__time:hover .contacts__time-list {
+  display: block;
+  transition: 1s;
+}
+
+.contacts__time-list {
+  text-align: center;
+  transition: 1s;
+  position: absolute;
+  top: 35px;
+  right:0px;
+  width: 150px;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 0 5px 2px rgba(221, 221, 221, 1);
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+}
+
+
+
+.contacts__time-list-text {
+  color: #221f1f;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.contacts__time-list-text_active {
+  color: #f89513;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
 }
