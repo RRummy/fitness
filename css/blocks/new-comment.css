@@ -106,15 +106,41 @@
   transition: 1s;
 }
 
-.new-comment__form-column-bottom-left {
-  margin-bottom: 10px;
-}
 
 .label {
   margin-right: 21px;
   margin-top: 10px;
 }
 
+.radio {
+  display: none;
+}
+
 .radio-custom {
-  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  position: relative;
+}
+
+.radio-custom, .label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.radio:checked+.radio-custom::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+  background: orange;
+  border-radius: 50%;
+}
+
+.radio-custom .radio:checked+.radio-custom::before {
+  border-radius: 50%;
 }
