@@ -106,6 +106,20 @@
   transition: 1s;
 }
 
+.new-comment__text:focus {
+  border: 1px solid orange;
+  outline: none;
+}
+
+.new-comment__link:focus {
+  border: 1px solid orange;
+  outline: none;
+}
+
+.new-comment__textarea:focus {
+  border: 1px solid orange;
+  outline: none;
+}
 
 .label {
   margin-right: 21px;
