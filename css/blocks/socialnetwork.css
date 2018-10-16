@@ -29,7 +29,12 @@
   align-items: center;
 }
 
-.socialnetwork__list-link-vk {
+.socialnetwork__list-link-vk::before {
+  content: "";
+  background-image: url(../../img/spritesheet.png);
+  width: 12px;
+  height: 7px;
+  background-position: -26px -53px;
   filter: saturate(0%) brightness(70%) contrast(1000%);
 }
 
@@ -39,6 +44,11 @@
 }
 
 .socialnetwork__list-link-fb {
+  content: "";
+  background-image: url(../../img/spritesheet.png);
+  width: 6px;
+  height: 13px;
+  background-position: -5px -5px;
   filter: saturate(0%) brightness(70%) contrast(1000%);
 }
 
@@ -48,6 +58,11 @@
 }
 
 .socialnetwork__list-link-g {
+  content: "";
+  background-image: url(../../img/spritesheet.png);
+  width: 15px;
+  height: 9px;
+  background-position: -5px -33px;
   filter: saturate(0%) brightness(70%) contrast(1000%);
 }
 
@@ -57,6 +72,11 @@
 }
 
 .socialnetwork__list-link-twitter {
+  content: "";
+  background-image: url(../../img/spritesheet.png);
+  width: 11px;
+  height: 9px;
+  background-position: -5px -53px;
   filter: saturate(0%) brightness(70%) contrast(1000%);
 }
 
@@ -66,6 +86,11 @@
 }
 
 .socialnetwork__list-link-mail {
+  content: "";
+  background-image: url(../../img/spritesheet.png);
+  width: 12px;
+  height: 9px;
+  background-position: -30px -33px;
   filter: saturate(0%) brightness(70%) contrast(1000%);
 }
 
