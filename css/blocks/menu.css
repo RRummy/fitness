@@ -34,6 +34,8 @@
   font-size: 12px;
   font-weight: 700;
   transition: 1s;
+  display: flex;
+  align-items: center;
 }
 
 .menu__text-active {
@@ -41,16 +43,12 @@
 }
 
 .menu__item:nth-child(1) .menu__text:before {
-  position: relative;
   width: 19px;
   height: 14px;
   content: "";
   background: url(../../img/spritesheet.png);
   background-position: -51px -5px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  display: block;
   margin-right: 15px;
   filter: saturate(0%) brightness(70%) contrast(1000%);
 }
@@ -66,16 +64,12 @@
 }
 
 .menu__item:nth-child(2) .menu__text:before {
-  position: relative;
   width: 19px;
   height: 14px;
   content: "";
   background: url(../../img/spritesheet.png);
   background-position: -52px -29px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  display: block;
   margin-right: 15px;
   filter: saturate(0%) brightness(70%) contrast(1000%);
 }
@@ -91,16 +85,12 @@
 }
 
 .menu__item:nth-child(3) .menu__text:before {
-  position: relative;
   width: 20px;
   height: 18px;
   content: "";
   background: url(../../img/spritesheet.png);
   background-position: -21px -5px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  display: block;
   margin-right: 15px;
   filter: saturate(0%) brightness(70%) contrast(1000%);
 }
@@ -121,10 +111,7 @@
   content: "";
   background: url(../../img/spritesheet.png);
   background-position: -51px -5px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  display: block;
   margin-right: 15px;
   transition: 1s;
   filter: none;
@@ -136,25 +123,19 @@
   content: "";
   background: url(../../img/spritesheet.png);
   background-position: -52px -29px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  display: block;
   margin-right: 15px;
   transition: 1s;
   filter: none;
 }
 
 .menu__item-active:nth-child(3) .menu__text-active:before {
-    width: 20px;
+  width: 20px;
   height: 18px;
   content: "";
   background: url(../../img/spritesheet.png);
   background-position: -21px -5px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  display: block;
   margin-right: 15px;
   transition: 1s;
   filter: none;

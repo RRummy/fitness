@@ -23,6 +23,7 @@
 }
 
 .contacts__time {
+  margin-left: 16px;
   padding: 0;
   display: flex;
   width: 149px;

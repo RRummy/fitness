@@ -29,8 +29,7 @@
   align-items: center;
 }
 
-.socialnetwork__list-link-vk::before {
-  content: "";
+.socialnetwork__list-link-vk {
   background-image: url(../../img/spritesheet.png);
   width: 12px;
   height: 7px;
@@ -44,7 +43,6 @@
 }
 
 .socialnetwork__list-link-fb {
-  content: "";
   background-image: url(../../img/spritesheet.png);
   width: 6px;
   height: 13px;
@@ -58,7 +56,6 @@
 }
 
 .socialnetwork__list-link-g {
-  content: "";
   background-image: url(../../img/spritesheet.png);
   width: 15px;
   height: 9px;
@@ -72,7 +69,6 @@
 }
 
 .socialnetwork__list-link-twitter {
-  content: "";
   background-image: url(../../img/spritesheet.png);
   width: 11px;
   height: 9px;
@@ -86,7 +82,6 @@
 }
 
 .socialnetwork__list-link-mail {
-  content: "";
   background-image: url(../../img/spritesheet.png);
   width: 12px;
   height: 9px;
