@@ -42,7 +42,7 @@
   transition: 1s;
   position: absolute;
   top: 35px;
-  right:0px;
+  right: 0px;
   width: 150px;
   height: 60px;
   background-color: #fff;
@@ -52,7 +52,20 @@
   display: none;
 }
 
+.contacts__time-list::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent white transparent;
+  position: absolute;
+  left: 128px;
+  top: -9px;
+}
 
+}
 
 .contacts__time-list-text {
   color: #221f1f;
