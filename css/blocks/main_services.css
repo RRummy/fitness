@@ -1,4 +1,5 @@
 .main-h1 {
+  font-family: "Open Sans";
   position: relative;
   text-align: left;
   color: black;
@@ -45,9 +46,6 @@
   transition: 1s;
 }
 
-.page-pagination__link-first {
-  color: #656464;
-}
 
 .section-services__news {
   position: relative;
