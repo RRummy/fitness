@@ -3,12 +3,13 @@
   display: flex;
   justify-content: center;
   width: 1200px;
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 
 .page-pagination__display {
   color: grey;
   margin-right: 18px;
+  margin-left: 170px;
 }
 
 .page-pagination__pages {

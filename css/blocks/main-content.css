@@ -11,7 +11,7 @@
   line-height: 38px;
   text-transform: uppercase;
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
   letter-spacing: 1.5px;
 }
 
@@ -38,26 +38,27 @@
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 25px;
   width: 192px;
+  margin-bottom: 8px;
 }
 
 .section-blog__date {
   font-size: 14px;
-font-weight: 300;
-line-height: 21px;
+  font-weight: 300;
+  line-height: 21px;
   color: grey;
 }
 
 .section-blog__name {
   font-weight: 700;
-line-height: 21px;
+  line-height: 21px;
 }
 
 .section-blog__news {
   display: flex;
   max-width: 885px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   flex-wrap: wrap;
 }
 
@@ -83,14 +84,7 @@ line-height: 21px;
   content: none;
 }
 
-.section-middle__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  margin-left: 30px;
-}
-
 .section-middle__list-item {
   list-style-type: disc;
+  margin-bottom: 5px;
 }
