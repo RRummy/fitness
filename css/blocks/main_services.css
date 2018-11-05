@@ -7,8 +7,9 @@
   font-weight: 700;
   line-height: 38px;
   text-transform: uppercase;
-  margin-top: 65px;
+  margin-top: 32px;
   margin-bottom: 60px;
+  
 }
 
 .section-services {
@@ -17,7 +18,8 @@
   height: 980px;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 50px;
+  margin-bottom: 50px; 
+  margin-right:
 }
 
 .section-services__img-text {
